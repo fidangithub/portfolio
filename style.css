@@ -763,7 +763,7 @@ label {
     flex-direction: column-reverse;
    }
    .contact-page > * {
-    margin-bottom: 10vh;
+    margin: 0 0 10vh 0;
     height: max-content;
    }
    .more {
