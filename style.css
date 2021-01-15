@@ -31,7 +31,7 @@ a{
     margin-bottom: 2rem;
     position: fixed;
     background-color: rgba(255, 255, 255, 0.55);
-    box-shadow: 0 0.2rem 1.6rem rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0.5rem 1.6rem rgba(0, 0, 0, 0.08);
     z-index: 1000;
 }
 .logo-svg {
@@ -385,14 +385,17 @@ a{
 .computer-screens{
     margin-top: 1.7rem;
     display: flex;
+    flex-direction: row;
     transition: all .2s ease-in;
 }
 .computer-screen{
     width: 47rem;
+    align-items: flex-start;
 }
 .next-prev-buttons{
     position: absolute;
     display:flex;
+    flex-direction: row;
     width: 46.8rem;
     justify-content: space-between;
     align-items: center;
@@ -451,9 +454,6 @@ a{
     color: white !important;
 }
 /* ////////////////////////////////CONTACT /////////////////////////////*/
-.navbar_contact {
-    padding-right: 3.1rem !important;
-}
 
 .contact-page {
     display: flex;
@@ -636,6 +636,9 @@ label {
 .burger {
     color: #693D17;
 }
+.portfolio {
+    color: var(--main-color-2);
+}
 .portfolio-used {
     width: 100%;
     display: flex;
@@ -775,8 +778,14 @@ label {
   .navigation{
     display: block;
   }
+  .navbar {
+    padding: 1rem 2rem 0 1rem;
+  }
   .nav-links {
     display: none;
+  }
+  .page-1-left {
+    width: 85%;
   }
   .page-1-left >p {
     font-size: 1.2rem;
