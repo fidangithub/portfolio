@@ -315,7 +315,7 @@ a{
     margin-bottom: 2rem;
 }
 .page-4{
-    margin-bottom: 30vh;
+    margin-bottom: 40vh;
     text-align: center;;
 }
 .page-4 > p {
@@ -832,9 +832,9 @@ label {
    textarea {
     width: 350px !important; 
    }
-   .page-4 {
-    margin-bottom: 20vh;
-   }
+   /* .page-4 {
+    margin-bottom: 40vh;
+   } */
    .page-6 {
     margin-bottom: 26vh;
    }
