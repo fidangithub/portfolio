@@ -832,9 +832,9 @@ label {
    textarea {
     width: 350px !important; 
    }
-   /* .page-4 {
-    margin-bottom: 40vh;
-   } */
+   .page-4 {
+    margin-bottom: 30vh;
+   }
    .page-6 {
     margin-bottom: 26vh;
    }
